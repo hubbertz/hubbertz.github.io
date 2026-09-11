@@ -1,5 +1,8 @@
-+++
-date = '2026-09-11T14:41:29+02:00'
-draft = true
-title = 'About'
-+++
+---
+title: "Über uns"
+type: docs
+---
+
+# Über uns
+
+Hier steht mehr über Ihre Website oder Ihr Unternehmen.
