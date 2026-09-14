@@ -13,7 +13,7 @@ Von Februar 2018 bis September 2021 haben wir mit dem Projektpartner
 ein LoRaWAN-Funknetz, über das Sensoren in der Emscher-Lippe-Region Messdaten
 ins Internet übertragen können. Aus einem einzigen Gateway im Mai 2019 wurden
 bis zum Projektende rund 85, dazu kamen Workshops für Schulen und Anwender und ein
-Bürger-Messnetz für Feinstaub in Bottrop.
+Bürger-Messnetz für Feinstaub in Bottrop. Wir zeigen hier eine Rückschau auf das Projekt.
 
 <!--more-->
 
