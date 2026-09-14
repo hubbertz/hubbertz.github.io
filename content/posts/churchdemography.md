@@ -11,7 +11,7 @@ Daten aus dem kirchlichen Meldewesen aufbereitet und als interaktive
 Online-Visualisierung auf
 [www.churchdemography.de](https://www.churchdemography.de) zugänglich gemacht.
 Das Projekt wurde von der **Evangelischen Kirche in Deutschland (EKD)**
-gefördert.
+gefördert und tatkräftig unterstützt durch Herrn Dr. Peter Jacobebbinghaus: Evangelische Kirche von Westfalen, Landeskirchenamt, Leitungsfeld 10 – Geschäftsbereich Statistik. Altstädter Kirchplatz 5, 33602 Bielefeld, Telefon: 0521 594-538.
 
 <!--more-->
 
