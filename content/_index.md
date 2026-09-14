@@ -24,7 +24,7 @@ layout: hextra-home
 {{< hextra/feature-grid cols="3" >}}
   {{< hextra/feature-card
     title="Projekte"
-    subtitle="Eigene Projekte – von der Idee bis zur Umsetzung."
+    subtitle="Projekte von Dr. Hans Hubbertz– von der Idee bis zur Umsetzung."
     icon="cube"
     link="kategorien/projekte/"
   >}}
