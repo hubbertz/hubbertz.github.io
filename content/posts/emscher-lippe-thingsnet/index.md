@@ -367,7 +367,7 @@ LoRaWAN-Sensoren im Praxiseinsatz getestet.
   Ultraschall reflektiert wird
 - Erschütterungssensoren: wenig brauchbare Ergebnisse
 - Reedkontakte: schwer an beweglichen Rolltoren anzubringen; ein Lichtsensor
-  im Kohlebunker bei der WINDOR erwies sich als problematisch
+  im Kohlebunker bei der WINDOR (Wirtschaftförderung Dorsten) erwies sich als problematisch
 
 Auffällig ist, dass gerade einige der Smart-City-Anwendungen aus der
 Vorhabenbeschreibung – Parkplätze, Füllstände, Erschütterungen – in der Praxis
