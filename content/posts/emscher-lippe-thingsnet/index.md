@@ -212,8 +212,7 @@ Einbeziehung der Windrichtung überprüfen.
 ### Selbst gebaute Sensoren
 
 Die Bottroper Messstationen wurden nach dem Vorbild des Projekts
-*luftdaten.info* (heute *Sensor.Community*) selbst gefertigt – mit dem
-Unterschied, dass sie ihre Daten per LoRaWAN statt über WLAN übertragen. Ein
+*luftdaten.info* (heute *Sensor.Community*) von unseren Kooperationspartnern Caspar Armster und Jens Nowak (Bad Honnef) incl. Softwareunterstützung gefertigt. – In unserem Projekt übertragen die Sensoren ihre Daten per LoRaWAN (863–870 MHz), also nicht per WLAN auf 2,4 GHz, was für die Erfüllung der Übertragungsanforderungen der kleinen Datenpakete viele Vorteile bringt. Ein
 Feinstaubsensor und ein Klimasensor für Temperatur, Luftfeuchte und Luftdruck
 sitzen wettergeschützt in einem Gehäuse aus zwei Abwasserrohrbögen, das
 Funkmodul sendet über eine außen liegende Antenne.
