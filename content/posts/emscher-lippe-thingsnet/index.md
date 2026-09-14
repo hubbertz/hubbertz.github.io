@@ -316,7 +316,7 @@ Die **Verteilung** der Messwerte macht das Muster deutlich. Der Median der
 Sensoren (Sensor-13 und Sensor-18) liegt mit rund 8–9 µg/m³ deutlich unter dem
 der LANUV-Station (rund 17 µg/m³). Gleichzeitig produzieren die Sensoren
 zahlreiche Ausreißer bis über 120 µg/m³, die Station dagegen nur bis etwa
-50–60 µg/m³.
+50–60 µg/m³. Das LANUV veröffentlicht gleitende 24-Stunden-Mittel; dies erklärt einen Teil der Unterschiede.
 
 ![Boxplots der PM10-Werte: LANUV gegenüber Sensor-13 und Sensor-18; die Sensoren haben einen niedrigeren Median, aber viele Ausreißer bis über 120](boxplots-pm10.webp "Verteilung der PM10-Werte: auffällige Ausreißer und Unterschiede beim Median.")
 
@@ -331,7 +331,7 @@ von Hausfeuerungsanlagen wie Holzöfen.
 Bei der relativen Luftfeuchte fallen die Sensoren seltener aus, und es gibt
 weniger Ausreißer. Trotzdem liegen die Werte häufig unter denen der
 LANUV-Station, und vereinzelte Werte über 100 % sind physikalisch unmöglich.
-Auch hier gilt: **Ohne Kalibrierung geht es nicht.**
+Auch hier gilt: **Ohne Kalibrierung sinkt die Qualität der Messwerte.**
 
 ![Zeitreihen der relativen Luftfeuchte von Sensor-02 und Sensor-18 im Vergleich zur LANUV-Station; die Sensorwerte liegen oft darunter, einzelne Spitzen über 100 Prozent](luftfeuchte.webp "Abweichungen bei der Luftfeuchte: wenig Ausfälle, geringe Ausreißer – dennoch ist eine Kalibrierung erforderlich.")
 
@@ -360,11 +360,11 @@ LoRaWAN-Sensoren im Praxiseinsatz getestet.
 **Nicht bewährt haben sich:**
 
 - Parksensoren: mehrere Defekte und Rückrufe der Hersteller; Sensoren von
-  Bosch ließen sich nicht auf V3 aktualisieren, und einbetonierte Sensoren
+  Bosch ließen sich nicht auf Version 3 des TTN-Stacks (TheThingsNet) aktualisieren, und einbetonierte Sensoren
   sind nur schwer zurückzuholen
 - Präsenz- und Bewegungsmelder: liefen schlecht, der Anbieter ging in Konkurs
 - Schallsensoren: kein echter Kundeneinsatz, schlecht geeignete Gehäuse
-- Füllstandssensoren in Metallbehältern: funktionieren nicht, weil der
+- Füllstandssensoren in Metallbehältern: funktionieren nicht, da der
   Ultraschall reflektiert wird
 - Erschütterungssensoren: wenig brauchbare Ergebnisse
 - Reedkontakte: schwer an beweglichen Rolltoren anzubringen; ein Lichtsensor
@@ -390,7 +390,7 @@ der wertvollen Orgel bilden.
 
 ## Fazit
 
-- **Das Netz steht.** Statt der angenommenen 50 Gateways sind rund 85
+- **Das Netz steht im Rahmen des Projektverlaufs.** Statt der angenommenen 50 Gateways sind rund 85
   entstanden; die Emscher-Lippe-Region ist weitgehend mit LoRaWAN versorgt.
 - **Bildung und Beteiligung wirken.** Mit Workshops, Lernpaketen und
   Hunderten Sensoren haben Schulen, Einrichtungen, Unternehmen sowie
