@@ -11,7 +11,7 @@ layout: hextra-home
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  Eine Sammlung eigener Projekte, Open-Source-Arbeit,&nbsp;<br class="hx:sm:block hx:hidden" />Präsentationen und Notizen zu Technologie.
+  Eine Sammlung eigener Projekte,&nbsp;<br class="hx:sm:block hx:hidden" />Präsentationen und Notizen zu Technologie.
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -21,18 +21,12 @@ layout: hextra-home
 
 <div class="hx:mt-6"></div>
 
-{{< hextra/feature-grid cols="2" >}}
+{{< hextra/feature-grid cols="3" >}}
   {{< hextra/feature-card
     title="Projekte"
     subtitle="Eigene Projekte – von der Idee bis zur Umsetzung."
     icon="cube"
     link="kategorien/projekte/"
-  >}}
-  {{< hextra/feature-card
-    title="Open Source"
-    subtitle="Beiträge zu Open-Source-Projekten und veröffentlichter Code."
-    icon="code"
-    link="kategorien/open-source/"
   >}}
   {{< hextra/feature-card
     title="Präsentationen"

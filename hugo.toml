@@ -7,7 +7,7 @@ title = 'RE-Code - Projekte'
   [[module.imports]]
     path = "github.com/imfing/hextra"
 
-# Posts werden über Kategorien (Projekte, Open Source, ...) und Tags gruppiert.
+# Posts werden über Kategorien (Projekte, Präsentationen, ...) und Tags gruppiert.
 [taxonomies]
   tag = 'tags'
   kategorie = 'kategorien'
@@ -60,12 +60,6 @@ title = 'RE-Code - Projekte'
     name = 'Projekte'
     pageRef = '/kategorien/projekte/'
     weight = 20
-
-  [[menu.main]]
-    identifier = 'open-source'
-    name = 'Open Source'
-    pageRef = '/kategorien/open-source/'
-    weight = 30
 
   [[menu.main]]
     identifier = 'praesentationen'
