@@ -1,6 +1,6 @@
 ---
 title: "BlinkenBible – Bibelverse als Laserprojektion"
-date: 2010-01-01
+date: 2010-02-02
 description: "Interaktives Laser-Medienprojekt zur Bibel zum Auftakt der Kulturhauptstadt RUHR.2010: Per Web oder SMS eingesandte Bibelverse erschienen als Laufschrift auf Gebäudefassaden."
 kategorien: ["projekte"]
 tags: ["medienprojekt", "laser", "bibel", "ruhr2010", "kulturhauptstadt", "interaktiv"]

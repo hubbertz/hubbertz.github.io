@@ -1,6 +1,6 @@
 ---
 title: "BibleFace – dein Bibelvers mit deinem Selfie"
-date: 2017-01-01
+date: 2017-02-15
 description: "Interaktives Webprojekt zum Reformationsjubiläum 2017: Auf bibleface.de verbinden Nutzerinnen und Nutzer ein Selfie mit einem persönlichen Bibelvers."
 kategorien: ["projekte"]
 tags: ["webprojekt", "bibel", "reformationsjubiläum", "interaktiv"]

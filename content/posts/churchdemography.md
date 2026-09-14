@@ -1,6 +1,6 @@
 ---
 title: "Church Demography: Meldewesendaten interaktiv visualisiert"
-date: 2023-01-01
+date: 2023-02-01
 description: "Aufbereitung demografischer Meldewesendaten für die Evangelische Kirche von Westfalen und interaktive Online-Visualisierung auf churchdemography.de – ein Förderprojekt der EKD."
 kategorien: ["projekte", "technologie"]
 tags: ["datenvisualisierung", "demografie", "python", "dash", "plotly", "förderprojekt"]
