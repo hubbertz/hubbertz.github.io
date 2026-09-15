@@ -2,7 +2,7 @@
 title: "Über dies"
 ---
 
-Hier steht, worum es auf dieser Website geht und wer dahintersteht.
+Wir zeigen hier, was mit den Symbolen von 0/1 zu bewerkstelligen ist...
 
 <!-- TODO: Kurzvorstellung, Schwerpunkte, Kontaktmöglichkeiten -->
 
