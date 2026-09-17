@@ -1,0 +1,26 @@
+{{- /* Header-Bild eines Posts: erstes Bild aus `images` in der Front Matter,
+       sofern es im Page-Bundle liegt (z. B. images: ["header.webp"]).
+       Dasselbe Feld liefert Hextra auch als og:image.
+       Optional headerCredit: Quellenangabe unter dem Bild, Markdown erlaubt. */ -}}
+{{- with .Params.images -}}
+  {{- with $.Resources.GetMatch (index . 0) -}}
+    {{- if eq .MediaType.MainType "image" -}}
+      {{- $small := .Resize "800x webp q82" -}}
+      <figure class="post-header">
+        <img
+          src="{{ .RelPermalink }}"
+          srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ .RelPermalink }} {{ .Width }}w"
+          sizes="(min-width: 1024px) 72rem, 100vw"
+          width="{{ .Width }}"
+          height="{{ .Height }}"
+          alt="{{ $.Title }}"
+          fetchpriority="high"
+          decoding="async"
+        />
+        {{- with $.Params.headerCredit }}
+        <figcaption>{{ . | markdownify }}</figcaption>
+        {{- end }}
+      </figure>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

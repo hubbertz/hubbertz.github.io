@@ -1,0 +1,98 @@
+baseURL = 'https://hubbertz.github.io'
+locale = 'de-DE'
+defaultContentLanguage = 'de'
+title = 'RE-Code - Projekte'
+
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
+
+# Posts werden über Kategorien (Projekte, Präsentationen, ...) und Tags gruppiert.
+[taxonomies]
+  tag = 'tags'
+  kategorie = 'kategorien'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[params]
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+    [params.navbar.logo]
+      path = ""
+      dark = ""
+      width = 40
+      height = 40
+      link = "/"
+  
+  [params.footer]
+    displayCopyright = true
+    displayPoweredBy = true
+
+  # Listen unter /posts/ und /kategorien/…: neueste zuerst
+  [params.blog.list]
+    displayTags = true
+    sortBy = 'date'
+    sortOrder = 'desc'
+    pagerSize = 10
+
+  # Archiv (/archiv/): alle Posts, nach Jahr gruppiert
+  [params.archives]
+    section = 'posts'
+    dateFormat = '02.01.'
+
+# pageRef statt url: Links funktionieren auch unter einem Unterpfad,
+# und der aktive Menüpunkt wird hervorgehoben.
+[menu]
+  [[menu.main]]
+    identifier = 'alle-posts'
+    name = 'Alle Posts'
+    pageRef = '/posts/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'projekte'
+    name = 'Projekte'
+    pageRef = '/kategorien/projekte/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'praesentationen'
+    name = 'Präsentationen'
+    pageRef = '/kategorien/praesentationen/'
+    weight = 40
+
+  [[menu.main]]
+    identifier = 'technologie'
+    name = 'Technologie'
+    pageRef = '/kategorien/technologie/'
+    weight = 50
+
+  [[menu.main]]
+    identifier = 'archiv'
+    name = 'Archiv'
+    pageRef = '/archiv/'
+    weight = 60
+
+  [[menu.main]]
+    identifier = 'ueber'
+    name = 'Über dies'
+    pageRef = '/ueber/'
+    weight = 70
+
+  [[menu.main]]
+    identifier = 'impressum'
+    name = 'Impressum'
+    pageRef = '/impressum/'
+    weight = 80
+
+  [[menu.main]]
+    identifier = 'datenschutz'
+    name = 'Datenschutz'
+    pageRef = '/datenschutz/'
+    weight = 90

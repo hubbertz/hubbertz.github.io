@@ -1,0 +1,4 @@
+# Überschreibt einzelne Texte aus Hextras i18n/de.yaml
+
+# Footer (params.footer.displayCopyright); Markdown erlaubt
+copyright: "© Dr. Hans Hubbertz · Inhalte, soweit nicht anders gekennzeichnet, lizenziert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) · [Lizenzhinweis](/impressum/#lizenzhinweis)"

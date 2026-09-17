@@ -1,0 +1,17 @@
+{{- /* Header-Bild der Startseite: erstes Bild aus `images` in der Front Matter
+       von content/_index.md (liegt im Home-Bundle, z. B. content/header.webp).
+       Dasselbe Feld liefert Hextra auch als og:image. */ -}}
+{{- with .Page.Params.images -}}
+  {{- with $.Page.Resources.GetMatch (index . 0) -}}
+    <figure class="home-header">
+      <img
+        src="{{ .RelPermalink }}"
+        width="{{ .Width }}"
+        height="{{ .Height }}"
+        alt="{{ $.Get "alt" }}"
+        fetchpriority="high"
+        decoding="async"
+      />
+    </figure>
+  {{- end -}}
+{{- end -}}
