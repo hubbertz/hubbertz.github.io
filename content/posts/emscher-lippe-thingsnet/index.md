@@ -410,8 +410,7 @@ der wertvollen Orgel bilden.
 
 ## Präsentation
 
-Die vollständigen Folien der Schlussauswertung für den Expertenbeirat
-(September 2021, 34 Folien):
+Die vollständigen Folien der Schlussauswertung für den Expertenbeirat Prof. Michael Schäfer (Technische Informatik an der Hochschule Ruhr West, Campus Bottrop), Rosa Strube  (Collaborating Centre on Sustainable Consumption and Production, Wuppertal (CSCP)), Denis Ahlemann (Geschäftsführender Gesellschafter at K.PLAN - Klima.Umwelt & Planung GmbH), durchgeführt im September 2021, (34 Folien):
 
 [Präsentation als PDF herunterladen (5,2 MB)](eltn-evaluation-2021.pdf)
 
