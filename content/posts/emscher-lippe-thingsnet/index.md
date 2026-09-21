@@ -82,7 +82,7 @@ war, 50 bis 100 Test-Sensorstationen an dieses Netz anzubinden.
 Als Kooperationspartner waren Kommunen der Emscher-Lippe-Region,
 Wirtschaftsförderungen, der Kreis Recklinghausen, FabLabs an lokalen
 Hochschulen, Firmen, Krankenhäuser, die Diakonie, Berufskollegs und
-Umweltschutzinitiativen beteiligt.
+Umweltschutzinitiativen und Privatpersonen beteiligt.
 
 Inhaltlich verband das Projekt zwei Themenfelder:
 
@@ -215,7 +215,7 @@ Einbeziehung der Windrichtung überprüfen.
 ### Selbst gebaute Sensoren
 
 Die Bottroper Messstationen wurden nach dem Vorbild des Projekts
-*luftdaten.info* (heute *Sensor.Community*) von unseren Kooperationspartnern Caspar Armster und Jens Nowak (Bad Honnef) incl. Softwareunterstützung gefertigt. – In unserem Projekt übertragen die Sensoren ihre Daten per LoRaWAN (863–870 MHz), also nicht per WLAN auf 2,4 GHz, was für die Erfüllung der Übertragungsanforderungen der kleinen Datenpakete viele Vorteile bringt. Ein
+*luftdaten.info* (heute *Sensor.Community*) von unseren Kooperationspartnern Caspar Armster und Jens Nowak (Bad Honnef) incl. Softwareunterstützung und Plattformeinbindung gefertigt. – In unserem Projekt übertragen die Sensoren ihre Daten per LoRaWAN (863–870 MHz), also nicht per WLAN auf 2,4 GHz, was für die Erfüllung der Übertragungsanforderungen der kleinen Datenpakete viele Vorteile bringt. Ein
 Feinstaubsensor und ein Klimasensor für Temperatur, Luftfeuchte und Luftdruck
 sitzen wettergeschützt in einem Gehäuse aus zwei Abwasserrohrbögen, das
 Funkmodul sendet über eine außen liegende Antenne.
@@ -265,9 +265,9 @@ Messwerte und technische Probleme einer Station im Zusammenhang betrachten.
 
 ## Evaluation: Wie genau messen die Sensoren?
 
-Für die Prüfung der Messgenauigkeit wurden die Werte der eigenen Sensoren mit
+Für die Prüfung der Messgenauigkeit wurden die Werte der eigenen Sensoren von den eingesetzten Plattformen gezogen und mit
 denen der LANUV-Station Bottrop-Welheim verglichen. Mehrere der eigenen Sensoren
-stehen in der Umgebung der Station.
+stehen in der Umgebung der Station. Auswertung und Visualisierung wurden in Python via selbst entwickelten ipython-Notebooks mit pandas-, matplotlib-, seaborn-Modulen bewerkstelligt. 
 
 ![Karte von Sensor.Community rund um die LANUV-Station Bottrop-Welheim (lila Punkt) mit mehreren Sensorwaben in der Umgebung; rechts die Verlaufsdiagramme von Sensor 51388](sensorbewertung-lanuv.webp "Exemplarische Sensoren-Bewertung: eigene Sensoren im Umfeld der LANUV-Station (lila). Quelle: Kartendaten © [OpenStreetMap-Mitwirkende](https://www.openstreetmap.org/copyright).")
 
@@ -330,7 +330,7 @@ von Hausfeuerungsanlagen wie Holzöfen.
 
 ### Luftfeuchte
 
-Bei der relativen Luftfeuchte fallen die Sensoren seltener aus, und es gibt
+Bei der Erfassung der relativen Luftfeuchte fallen die Sensoren seltener aus, und es zeigen sich
 weniger Ausreißer. Trotzdem liegen die Werte häufig unter denen der
 LANUV-Station, und vereinzelte Werte über 100 % sind physikalisch unmöglich.
 Auch hier gilt: **Ohne Kalibrierung sinkt die Qualität der Messwerte.**
@@ -342,7 +342,7 @@ Auch hier gilt: **Ohne Kalibrierung sinkt die Qualität der Messwerte.**
 ## Erfahrungen mit LoRa-Sensoren
 
 Neben den Umweltmessungen wurden im Projekt zahlreiche handelsübliche
-LoRaWAN-Sensoren im Praxiseinsatz getestet.
+LoRaWAN-Sensoren im Praxiseinsatz getestet, mit unterschiedlichen Erfahrungen:
 
 **Bewährt haben sich:**
 
