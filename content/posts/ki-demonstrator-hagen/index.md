@@ -166,7 +166,7 @@ bis zum Einbau des Ersatzteils. Für jeden Schritt stehen Soll-Termine bereit;
 die **Ist-Anmeldung und -Abmeldung** sind die Felder, die aus der erkannten
 Arbeitskarte gefüllt werden.
 
-![Fertigungslos im ERP-System mit vier Arbeitsschritten; markiert sind die Schrittbezeichnungen und die Ist-Spalten für An- und Abmeldung](erp-fertigungslos.webp "Fertigungslos im ERP-System – die markierten Ist-Spalten werden aus den erkannten Rückmeldungen befüllt.")
+![Fertigungslos im ERP-System mit vier Arbeitsschritten; markiert sind die Schrittbezeichnungen und die Ist-Spalten für An- und Abmeldung](erp-fertigungslos.webp "Fertigungslos im ERP-System – die markierten Ist-Spalten werden aus den erkannten Rückmeldungen befüllt. Quelle: Transfact")
 
 ### Technischer Hintergrund
 
@@ -181,7 +181,7 @@ Bilder an verschiedene Computer-Vision-APIs schickt:
 - Clarifai Computer Vision
 - eine experimentelle API mit Open-Source-Modellen von Keras (trainiert auf ImageNet)
 
-![Ablauf: Bilder werden vom eigenen Rechner über die Anwendung an Cloud-APIs gesendet, die Ergebnisse als CSV und JSON ausgegeben](user-flow.webp "User-Flow: Bilder an die Cloud-APIs senden, Analyseergebnisse empfangen, als CSV und JSON ausgeben.")
+![Ablauf: Bilder werden vom eigenen Rechner über die Anwendung an Cloud-APIs gesendet, die Ergebnisse als CSV und JSON ausgegeben](user-flow.webp "User-Flow: Bilder an die Cloud-APIs senden, Analyseergebnisse empfangen, als CSV und JSON ausgeben."Quelle: Memespector-GUI)
 
 Die eigentliche Erkennung übernimmt die **Google Cloud Vision API**. Sie wird
 in einem Google-Cloud-Projekt aktiviert und rechnet pro Bild und Funktion ab.
