@@ -37,7 +37,7 @@ images: ["header.webp"]
 {{< hextra/feature-grid cols="3" >}}
   {{< hextra/feature-card
     title="Projekte"
-    subtitle="Von der Idee bis zur Umsetzung."
+    subtitle="Umgesetzte Ideen"
     icon="cube"
     link="kategorien/projekte/"
   >}}

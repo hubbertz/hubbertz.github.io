@@ -267,7 +267,7 @@ Messwerte und technische Probleme einer Station im Zusammenhang betrachten.
 
 Für die Prüfung der Messgenauigkeit wurden die Werte der eigenen Sensoren von den eingesetzten Plattformen gezogen und mit
 denen der LANUV-Station Bottrop-Welheim verglichen. Mehrere der eigenen Sensoren
-stehen in der Umgebung der Station. Auswertung und Visualisierung wurden in Python via selbst entwickelten ipython-Notebooks mit pandas-, matplotlib-, seaborn-Modulen bewerkstelligt. 
+stehen in der Umgebung der Station. Auswertung und Visualisierung wurden in Python mit eigens erstellten Jupyter-Notebooks bewerkstelligt, in bewährter Weise mit pandas-, matplotlib-, seaborn-Modulen.
 
 ![Karte von Sensor.Community rund um die LANUV-Station Bottrop-Welheim (lila Punkt) mit mehreren Sensorwaben in der Umgebung; rechts die Verlaufsdiagramme von Sensor 51388](sensorbewertung-lanuv.webp "Exemplarische Sensoren-Bewertung: eigene Sensoren im Umfeld der LANUV-Station (lila). Quelle: Kartendaten © [OpenStreetMap-Mitwirkende](https://www.openstreetmap.org/copyright).")
 
@@ -395,22 +395,22 @@ der wertvollen Orgel bilden.
 - **Das Netz steht im Rahmen des Projektverlaufs.** Statt der angenommenen 50 Gateways sind rund 85
   entstanden; die Emscher-Lippe-Region ist weitgehend mit LoRaWAN versorgt.
 - **Bildung und Beteiligung wirken.** Mit Workshops, Lernpaketen und
-  Hunderten Sensoren haben Schulen, Einrichtungen, Unternehmen sowie
+  hunderten Sensoren haben Schulen, Einrichtungen, Unternehmen sowie
   Bürgerinnen und Bürger das Internet der Dinge selbst ausprobiert – bis hin
   zu einem eigenen Messnetz in Bottrop, dessen Daten offen zugänglich sind.
 - **Günstige Sensoren ersetzen keine Messstation.** Messlücken, Ausreißer,
   systematische Abweichungen und ein fehlerhafter Austauschsensor zeigen: Für
-  belastbare Aussagen braucht es Kalibrierung, Vergleichsmessungen am selben
+  belastbare Aussagen braucht es eine valide Kalibrierung, Vergleichsmessungen am selben
   Ort und eine laufende Kontrolle der Datenqualität. Als Ergänzung, die lokale
   Effekte sichtbar macht und für das Thema sensibilisiert, sind die Sensoren
-  dagegen wertvoll.
+  dagegen wertvoll. In jedem Falle eröffnen die preisgünstigen Sensoren ein breites Areal für verschiedene Lernfelder, die nicht zuletzt Fragen von Messwertgenerierung zum spannenden Gegenstand machen.
 - **Einfache Anwendungen zuerst.** Tür-, Temperatur-, CO₂- und GPS-Sensoren
   funktionierten zuverlässig, komplexere Anwendungen wie Parkplatz- oder
   Füllstandserkennung erwiesen sich als deutlich anspruchsvoller.
 
 ## Präsentation
 
-Die vollständigen Folien der Schlussauswertung für den Expertenbeirat Prof. Michael Schäfer (Technische Informatik an der Hochschule Ruhr West, Campus Bottrop), Rosa Strube  (Collaborating Centre on Sustainable Consumption and Production, Wuppertal (CSCP)), Denis Ahlemann (Geschäftsführender Gesellschafter at K.PLAN - Klima.Umwelt & Planung GmbH), durchgeführt im September 2021, (34 Folien):
+Die vollständigen Folien der Schlussauswertung für den Expertenbeirat Prof. Michael Schäfer (Technische Informatik an der Hochschule Ruhr West, Campus Bottrop), Rosa Strube (Collaborating Centre on Sustainable Consumption and Production, Wuppertal (CSCP)), Denis Ahlemann (Geschäftsführender Gesellschafter at K.PLAN - Klima.Umwelt & Planung GmbH), durchgeführt im September 2021, (34 Folien):
 
 [Präsentation als PDF herunterladen (5,2 MB)](eltn-evaluation-2021.pdf)
 
