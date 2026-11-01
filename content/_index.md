@@ -18,7 +18,7 @@ images: ["header.webp"]
 {{< hextra/hero-subtitle >}}
   Eine Sammlung von Projekten,&nbsp;<br class="hx:sm:block hx:hidden" />Präsentationen und Notizen zu Technologie
   <br class="hx:sm:block hx:hidden" />
-  von Dr. Hans Hubbertz
+   von Dr. Hans Hubbertz
 {{< /hextra/hero-subtitle >}}
 </div>
 
